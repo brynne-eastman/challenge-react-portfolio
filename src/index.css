@@ -1,13 +1,269 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+:root {
+  --primary-color:#668a70;
+  --secondary-color: #e6ab9a;
+  --tertiary-color:#e07655;
+  --quaternary-color: #e8e6d3;
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  background: var(--primary-color);
+  color: var(--quaternary-color);
+  font-family: 'Poiret One', cursive;
+
+}
+
+.nav {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+}
+
+.nav-item {
+  color: var(--secondary-color)
+}
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 2rem;
+  
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.top-title {
+  text-align: left;
+  color: var(--secondary-color)
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+a {
+  color: var(--tertiary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.card {
+  background-color: var(--secondary-color);
+  border-radius: 2px;
+  height: 525px;
+  margin: 1rem;
+  margin-bottom: 100px;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 50%;
+  
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--secondary);
+}
+.card > .img-container > img {
+  width: 100%;
+  padding: 25px;
+  background-color: var(--secondary-color);
+}
+
+.card > .content {
+  padding-right: 1rem;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  font-weight: bold;
+}
+
+.card > .content > ul {
+  list-style-type: none;
+  background-color: var(--secondary-color);
+}
+
+.card > .content > ul > li {
+  margin-top: 18px;
+  background-color: var(--secondary-color);
+}
+
+.wrapper {
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.project-icons-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.link {
+  color: var(--secondary-color)
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary-color);
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: .8;
+}
+
+img {
+  max-width: 100%;
+}
+
+span[role="img"] {
+  cursor: default;
+}
+
+form {
+  width: 40%;
+  justify-content: center;
+  
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--quaternary-color);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--quaternary-color);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+li {
+  list-style: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav  li {
+  cursor: pointer;
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #e8e6d3;
+	padding: 5px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+
+button {
+	background: var(--secondary-color);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+a {
+	border-radius: 5px;
+	color: var(--primary);
+	font-weight: 600;
+	padding: 2px 4px;
+	margin-left: -2px;
+	margin-right: -2px;
+	
+}
+
+.navActive {
+  color: var(--secondary);
 }

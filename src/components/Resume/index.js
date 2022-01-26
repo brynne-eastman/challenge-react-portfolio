@@ -22,7 +22,7 @@ function Resume() {
                         </li>
                     </ul>
                     
-                    <a href='https://github.com/brynne-eastman/react-portfolio/blob/main/assets/Brynne_Eastman-Resume.pdf'
+                    <a href='https://github.com/brynne-eastman/challenge-react-portfolio/blob/main/assets/Brynne_Eastman-Resume%20(1).pdf'
                     className='link'
                     >
                         Download Resume Here
