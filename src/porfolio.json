@@ -1,0 +1,56 @@
+[
+    
+    {
+        "id": 1,
+        "name": "Code Quiz",
+        "image": "https://raw.githubusercontent.com/brynne-eastman/code-quiz/main/assets/images/code-quiz.png",
+        "github": "https://github.com/brynne-eastman/code-quiz",
+        "deployedApp": "https://brynne-eastman.github.io/code-quiz/",
+        "description": "The application allows user to take a timed quiz answering questions about JavaScript.",
+        "languages": "JavaScript, HTML, CSS"
+    },
+    
+
+    {
+        "id": 2,
+        "name": "Note Taker",
+        "image": "https://raw.githubusercontent.com/brynne-eastman/note-taker/main/public/assets/images/note-taker-1.png",
+        "github": "https://github.com/brynne-eastman/note-taker",
+        "deployedApp": "https://nameless-badlands-75301.herokuapp.com/",
+        "description": "The Note Taker app can be used to write and save notes.",
+        "languages": "Node, Express, CSS, HTML"
+    },
+
+    {
+        "id": 3,
+        "name": "Workday Scheduler",
+        "image": "https://raw.githubusercontent.com/brynne-eastman/Work-Day-Scheduler-Challenge/main/assets/images/Work-Day-Scheduler-Challenge.png",
+        "github": "https://github.com/brynne-eastman/Work-Day-Scheduler-Challenge",
+        "deployedApp": "https://brynne-eastman.github.io/Work-Day-Scheduler-Challenge/",
+        "description": "The application that allows a user to save events for each hour of the work day, 9am-5pm.",
+        "languages": "JavaScript, HTML, CSS, jQuery"
+    },
+
+    
+
+    {
+        "id": 4,
+        "name": "Budget Tracker",
+        "image": "https://raw.githubusercontent.com/brynne-eastman/pwa-budget-tracker/main/public/images/budget-tracker_screengrab.png",
+        "github": "https://github.com/brynne-eastman/pwa-budget-tracker",
+        "deployedApp": "https://stark-reaches-28667.herokuapp.com/",
+        "description": "The PWA budget tracker application allows the user to be able to add expenses and deposits to their budget with or without a connection.",
+        "languages": "Node, Express, JavaScript, mongoDB, mongoose, nodemon"
+    },
+
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "image": "https://raw.githubusercontent.com/brynne-eastman/JS-Password-Generator-Challenge/main/assets/images/JS-Password-Generator-Challenge.png",
+        "github": "https://github.com/brynne-eastman/JS-Password-Generator-Challenge",
+        "deployedApp": "https://brynne-eastman.github.io/JS-Password-Generator-Challenge/",
+        "description": "This application allows the user to generate a random password, between 8 and 128 characters in length, based on criteria they have selected - uppercase letters, lowercase letters, numbers, or special characters.",
+        "languages": "JavaScript, HTML, CSS"
+    }
+
+]
