@@ -48,6 +48,10 @@ body {
   color: var(--secondary-color)
 }
 
+.name {
+  color: var(--secondary-color);
+}
+
 h1,
 h2 {
   font-family: 'Roboto', sans-serif;
