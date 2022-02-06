@@ -53,7 +53,7 @@
         "languages": "Apollo, Bcrypt, Express, GraphQL, JSON Web Tokens, Mongoose, React, Bulma"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Password Generator",
         "image": "https://raw.githubusercontent.com/brynne-eastman/JS-Password-Generator-Challenge/main/assets/images/JS-Password-Generator-Challenge.png",
         "github": "https://github.com/brynne-eastman/JS-Password-Generator-Challenge",
