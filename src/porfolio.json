@@ -44,16 +44,6 @@
     },
 
     {
-        "id": 5,
-        "name": "Password Generator",
-        "image": "https://raw.githubusercontent.com/brynne-eastman/JS-Password-Generator-Challenge/main/assets/images/JS-Password-Generator-Challenge.png",
-        "github": "https://github.com/brynne-eastman/JS-Password-Generator-Challenge",
-        "deployedApp": "https://brynne-eastman.github.io/JS-Password-Generator-Challenge/",
-        "description": "This application allows the user to generate a random password, between 8 and 128 characters in length, based on criteria they have selected - uppercase letters, lowercase letters, numbers, or special characters.",
-        "languages": "JavaScript, HTML, CSS"
-    },
-
-    {
         "id": 6,
         "name": "Power Up Workout App",
         "image": "https://user-images.githubusercontent.com/88006211/152448284-873910e9-a6c5-43df-9c41-a6d9c5ed6323.png",
@@ -63,4 +53,5 @@
         "languages": "Apollo, Bcrypt, Express, GraphQL, JSON Web Tokens, Mongoose, React, Bulma"
     }
 
+    
 ]
