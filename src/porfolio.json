@@ -51,6 +51,16 @@
         "deployedApp": "https://afternoon-beyond-20770.herokuapp.com/",
         "description": "Power-up is an easy tool to track a person's workout routine. It helps users find new exercises that they  might have not even known existed and keep them in one place to track easily. ",
         "languages": "Apollo, Bcrypt, Express, GraphQL, JSON Web Tokens, Mongoose, React, Bulma"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "image": "https://raw.githubusercontent.com/brynne-eastman/JS-Password-Generator-Challenge/main/assets/images/JS-Password-Generator-Challenge.png",
+        "github": "https://github.com/brynne-eastman/JS-Password-Generator-Challenge",
+        "deployedApp": "https://brynne-eastman.github.io/JS-Password-Generator-Challenge/",
+        "description": "This application allows the user to generate a random password, between 8 and 128 characters in length, based on criteria they have selected - uppercase letters, lowercase letters, numbers, or special characters.",
+        "languages": "JavaScript, HTML, CSS"
+
     }
 
     
