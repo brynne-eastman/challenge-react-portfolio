@@ -47,7 +47,7 @@
     {
         "id": 5,
         "name": "Power Up Workout App",
-        
+        "image": "https://user-images.githubusercontent.com/88006211/152448284-873910e9-a6c5-43df-9c41-a6d9c5ed6323.png",
         "github": "https://github.com/cristianramirez0315/power-up",
         "deployedApp": "https://afternoon-beyond-20770.herokuapp.com/",
         "description": "Power-up is an easy tool to track a person's workout routine. It helps users find new exercises that they  might have not even known existed and keep them in one place to track easily. ",
